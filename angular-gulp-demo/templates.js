@@ -1,0 +1,2 @@
+angular.module('templates', []).run(['$templateCache', function($templateCache) {$templateCache.put('./home.html','<h1>HOME</h1>\r\n');
+$templateCache.put('./login.html','<h1>hello {{ title }}</h1>\r\n<form action="">\r\n  \u7528\u6237\u540D\uFF1A\r\n  <input type="text">\r\n  <br> \u5BC6\u7801\uFF1A\r\n  <input type="text">\r\n  <br>\r\n  <input type="submit" value="\u767B\u9646">\r\n</form>\r\n');}]);
